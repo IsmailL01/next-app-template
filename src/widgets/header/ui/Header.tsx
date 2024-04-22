@@ -1,7 +1,6 @@
 import { auth } from '@clerk/nextjs/server';
-import Image from 'next/image';
 import { SignUpButton, UserButton, SignInButton } from '@clerk/nextjs';
-import Logo from '@/public/logo.jpg';
+
 import cls from './Header.module.css';
 
 export const Header = () => {
@@ -21,7 +20,7 @@ export const Header = () => {
                   <button type="button">Зарегистрироваться</button>
                 </SignUpButton>
                 <SignInButton mode="modal">
-                  <button>Войти</button>
+                  <button type="button">Войти</button>
                 </SignInButton>
               </div>
             )}
