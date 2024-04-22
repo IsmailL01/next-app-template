@@ -1,0 +1,70 @@
+.gallery {
+  display: flex;
+  max-width: 700px;
+  max-height: 500px;
+  height: 100%;
+  flex-direction: column;
+  padding: 5px;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+.galleryImg {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  position: relative;
+}
+.galleryImg button {
+  padding: 0;
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: none;
+  background-color: #fff 7a;
+}
+.galleryImg button:hover {
+  box-shadow: 0 0 10px #000;
+  background-color: #fff;
+}
+.galleryImg button:focus {
+  outline: none;
+}
+.galleryImg img {
+  width: 100%;
+  object-fit: cover;
+}
+.galleryBtnLeft {
+  left: 10px;
+}
+.galleryBtnRight {
+  right: 10px;
+}
+.galleryNav {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 5px;
+  height: 45px;
+  align-items: center;
+}
+.galleryNav button {
+  padding: 0;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  border: none;
+  background-image: linear-gradient(to top, tan, lightblue);
+}
+.galleryNav button:hover {
+  box-shadow: 0 0 10px #000;
+}
+.galleryNav button:focus {
+  outline: none;
+}
+.galleryNav button.active {
+  background-image: linear-gradient(to top, #f00, #c07171);
+}

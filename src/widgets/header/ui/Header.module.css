@@ -1,0 +1,17 @@
+.header {
+  margin-bottom: 80px;
+}
+
+.headerWrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #393dff;
+  min-height: 150px;
+  border-radius: 20px;
+}
+
+.authBtns {
+  display: flex;
+  flex-direction: column;
+}
