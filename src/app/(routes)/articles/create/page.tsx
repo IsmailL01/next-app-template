@@ -1,4 +1,4 @@
-import CreateArticlePage from '@/src/pages/createArticlePage/ui/CreateArticlePage';
+import CreateArticlePage from '@/src/_pages/createArticlePage/ui/CreateArticlePage';
 
 const Page = () => <CreateArticlePage />;
 

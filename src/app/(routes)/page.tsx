@@ -1,4 +1,4 @@
-import { Home } from '@/src/pages/home/ui/Home';
+import { Home } from '@/src/_pages/home/ui/Home';
 
 export default async function HomePage() {
   return (
